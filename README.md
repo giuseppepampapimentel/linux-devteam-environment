@@ -9,11 +9,13 @@ Le funzionalità principali sono
     backup automatici della cartella del team
     monitoraggio dei processi degli utenti
 - Logging in /var/log
-- Automazione tramite cron:
+- Automazione tramite cron
     backup giornaliero alle 02:00
     monitoraggio ogni 30 minuti
 
-la struttura del proggeto e stata fatta cosi:
+
+la struttura del proggeto e stata fatta cosi
+
 - /usr/local/bin/backup_dev.sh
 - /usr/local/bin/log_processi.sh
 - /var/log/dev_backup.log
