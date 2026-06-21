@@ -6,12 +6,12 @@ Le funzionalità principali sono
 - Configurazione permessi avanzati (SGID e Sticky Bit)
 - Cartelle condivise sicure in /srv
 - Script Bash per
-        - backup automatici della cartella del team
-        - monitoraggio dei processi degli utenti
+    - backup automatici della cartella del team
+    - monitoraggio dei processi degli utenti
 - Logging in /var/log
 - Automazione tramite cron
-      - backup giornaliero alle 02:00
-      - monitoraggio ogni 30 minuti
+    - backup giornaliero alle 02:00
+    - monitoraggio ogni 30 minuti
 
 
 la struttura del proggeto e stata fatta cosi
@@ -34,5 +34,21 @@ Tecnologie utilizzate per questo progetto:
 ## Permessi degli script
 Per rendere eseguibili gli script fatti sono
 
-- chmod +x /usr/local/bin/backup_dev.sh
-- chmod +x /usr/local/bin/log_processi.sh
+   - chmod +x /usr/local/bin/backup_dev.sh
+   - chmod +x /usr/local/bin/log_processi.sh
+
+## Come usare il progetto passaggi da fare
+
+1. Copiare gli script in /usr/local/bin
+2. Rendere gli script eseguibili con chmod +x
+3. Creare le cartelle
+   - /srv/dev_shared
+   - /srv/dev_public
+   - /srv/backups
+5. Creare i file di log
+   - /var/log/dev_backup.log
+   - /var/log/dev_processi.log
+6. Configurare cron
+   - Backup giornaliero alle 02:00
+   - Monitoraggio ogni 30 minuti
+
