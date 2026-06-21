@@ -30,3 +30,9 @@ Tecnologie utilizzate per questo progetto:
 - Cron
 - Filesystem Linux
 - Gestione permessi avanzati
+
+## Permessi degli script
+Per rendere eseguibili gli script fatti sono
+
+- chmod +x /usr/local/bin/backup_dev.sh
+- chmod +x /usr/local/bin/log_processi.sh
