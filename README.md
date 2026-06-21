@@ -13,19 +13,18 @@ Le funzionalità principali sono
     backup giornaliero alle 02:00
     monitoraggio ogni 30 minuti
 
-  la struttura del proggeto e stata fatta cosi:
-/usr/local/bin/backup_dev.sh
-/usr/local/bin/log_processi.sh
-/var/log/dev_backup.log
-/var/log/dev_processi.log
-/srv/dev_shared
-/srv/dev_public
-/srv/backups
+la struttura del proggeto e stata fatta cosi:
+- /usr/local/bin/backup_dev.sh
+- /usr/local/bin/log_processi.sh
+- /var/log/dev_backup.log
+- /var/log/dev_processi.log
+- /srv/dev_shared
+- /srv/dev_public
+- /srv/backups
 
 Tecnologie utilizzate per questo progetto:
-
--Linux (ovvero Ubuntu)
--Bash scripting
--Cron
--Filesystem Linux
--Gestione permessi avanzati
+- Linux (ovvero Ubuntu)
+- Bash scripting
+- Cron
+- Filesystem Linux
+- Gestione permessi avanzati
