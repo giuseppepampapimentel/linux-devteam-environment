@@ -5,7 +5,7 @@ Le funzionalità principali sono
 - Creazione e gestione di utenti e gruppi Linux
 - Configurazione permessi avanzati (SGID e Sticky Bit)
 - Cartelle condivise sicure in /srv
-- Script Bash per:
+- Script Bash per
         - backup automatici della cartella del team
         - monitoraggio dei processi degli utenti
 - Logging in /var/log
